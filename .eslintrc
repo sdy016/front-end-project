@@ -1,0 +1,20 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["import","prettier","react-hooks"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended","plugin:react-hooks/recommended","airbnb", "airbnb/hooks"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
