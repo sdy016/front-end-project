@@ -1,0 +1,87 @@
+.footer {
+  width: 100%;
+}
+.footer hr {
+  border-top: 1px solid #c8c8c8;
+}
+.footer .footerContent {
+  width: 1200px;
+  margin: auto;
+  padding-top: 40px;
+  position: relative;
+}
+.footer .footerContent ul {
+  display: block;
+  margin-bottom: 25px;
+}
+.footer .footerContent ul li {
+  float: left;
+  font-size: 14px;
+  color: #666;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.footer .footerContent ul li a {
+  color: #666;
+}
+.footer .footerContent ul li a:hover {
+  text-decoration: none;
+}
+.footer .footerContent ul li:hover {
+  color: #222;
+}
+.footer .footerContent .iconBox {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  height: 30px;
+  text-align: right;
+}
+.footer .footerContent .iconBox .face,
+.footer .footerContent .iconBox .instar {
+  width: 26px;
+  height: 26px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  float: left;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.footer .footerContent .iconBox .face:hover,
+.footer .footerContent .iconBox .instar:hover {
+  opacity: 1;
+}
+.footer .footerContent .iconBox .face {
+  background-image: url(../icon/faceBook.png);
+  margin-right: 10px;
+}
+.footer .footerContent .iconBox .instar {
+  background-image: url(../icon/instar.png);
+}
+.footer .footerContent p {
+  color: #999;
+  margin-bottom: 10px;
+}
+.footer .footerContent p span {
+  margin: 0 10px;
+}
+.footer .footerContent p.bk {
+  color: #222;
+}
+.footer .footerContent p.gk {
+  color: #666;
+  margin-top: 25px;
+}
+.footer .footerContent p.last {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.footer .footerContent p a {
+  cursor: pointer;
+  color: #999;
+}
+.footer .footerContent p a:hover {
+  color: #222;
+}

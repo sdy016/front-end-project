@@ -1,0 +1,91 @@
+@import './index.scss';
+
+.footer {
+  width: 100%;
+  hr {
+    border-top: 1px solid #c8c8c8;
+  }
+  .footerContent {
+    width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+    position: relative;
+    ul {
+      display: block;
+      margin-bottom: 25px;
+      li {
+        float: left;
+        font-size: 14px;
+        color: #666;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
+        a {
+          color: #666;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+        &:hover {
+          color: #222;
+        }
+        &.bold {
+        }
+      }
+    }
+
+    .iconBox {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      height: 30px;
+      text-align: right;
+      .face,
+      .instar {
+        width: 26px;
+        height: 26px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        float: left;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: 0.5s ease;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .face {
+        background-image: url(../icon/faceBook.png);
+        margin-right: 10px;
+      }
+      .instar {
+        background-image: url(../icon/instar.png);
+      }
+    }
+    p {
+      color: #999;
+      margin-bottom: 10px;
+      span {
+        margin: 0 10px;
+      }
+      &.bk {
+        color: #222;
+      }
+      &.gk {
+        color: #666;
+        margin-top: 25px;
+      }
+      &.last {
+        margin-top: 40px;
+        margin-bottom: 100px;
+      }
+      a {
+        cursor: pointer;
+        color: #999;
+        &:hover {
+          color: #222;
+        }
+      }
+    }
+  }
+}

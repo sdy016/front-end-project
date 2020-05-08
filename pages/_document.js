@@ -1,8 +1,8 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import PropTypes from "prop-types";
-import Document, { Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import PropTypes from 'prop-types';
+import Document, { Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
 
 class MyDocument extends Document {
   static getInitialProps(context) {
